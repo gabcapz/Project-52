@@ -1,0 +1,93 @@
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 15px;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#f7f2f2;
+    background: url("background.jpg") fixed;
+    background-size: 100% 100%;
+    
+}
+
+a{
+    text-decoration :none;
+}
+
+a:link{
+    color:#ffffff;
+    text-decoration :none;
+}
+
+a:visited{
+    color: #ffffff;
+    text-decoration :none;
+}
+
+.bodyimg{
+    background: url("main2.jpg") 100% 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bodyimg p{
+    color:#fd0000;
+    font-size: 55px;
+    font-family: Lucida handwriting, sans-serif;
+    font-variant: small-caps;
+    position: absolute;
+    top:20%;
+    left:40%;
+    transform: translate(-30%,-50%);
+    text-align: center;
+
+}
+.bodyimg h3{
+    color:yellowgreen;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    width: 1200px;
+    position: absolute;
+    top:60%;
+    left:40%;
+    transform: translate(-40%, -40%);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    font-family: sans-serif;
+    justify-content: center;
+}
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+}
+.origami {
+    
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 25px;
+    width:310px;
+    font-family: Brush Script MT;
+    color: purple;
+    font-size: 24px;
+    
+}
+
+.origami:hover{
+
+    transform: scale(1.1);
+}
+
+.grid h3{
+    font-family: Algerian;
+    color:#f31c1c
+}
